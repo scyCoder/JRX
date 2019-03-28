@@ -30,7 +30,7 @@ public class MatcherTest {
 
         // find方法是验证的数据是否有我们需要的数据
         boolean isFind = matcher.find();
-        System.out.println("验证的数据是否有我们需要的数据？" + isFind);
+        System.out.println("验证的数据是 否有我们需要的数据？" + isFind);
 
         // 获得捕获组的个数
         int count = matcher.groupCount();

@@ -37,7 +37,7 @@ public class StudentSortTest {
 
         /**
          * 排序
-         *      先根据学生的分数从高到低排序，如果分数相等，那么根据学生的年级从高到低排序
+         *      先根据学生的分数从高到低排序，如果 分数相等，那么根据学生的年级从高到低排序
          *      根据学生的年级排序，我是根据年级的hashCode值进行排序的
          */
         studentList.sort((student11, student21) -> (int) (student21.getScore() - student11.getScore()) == 0 ? (student21.getGrade().hashCode()

@@ -36,7 +36,7 @@ public class FileTest {
     }
 
     /**
-     * 统计文件夹中的文件个数
+     * 统计文件夹中的文件个数，使用递归2
      *
      * @param file
      */

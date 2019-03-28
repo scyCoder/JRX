@@ -37,7 +37,7 @@ public class LocalTimeTest {
         String formatTime = now.format(DateTimeFormatter.ofPattern("HH/mm"));
         System.out.println("格式化的时间为：" + formatTime);
 
-        // 解析时间 的格式必须是用“:"连接
+        // 解析时间 的格式必须是用 “:"连接
         LocalTime parseTime = LocalTime.parse("12:30:56");
         System.out.println("解析的时间为：" + parseTime);
 

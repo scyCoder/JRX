@@ -24,7 +24,7 @@ public class InstantTest {
     @Test
     public void getInstantTest() {
 
-        // 获得北京时间
+        // 获得 北京时间
         Instant now = Instant.now().plusMillis(TimeUnit.HOURS.toMillis(8));
         System.out.println("当前时间为：" + now);
 

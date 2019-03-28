@@ -32,7 +32,7 @@ public class PeriodTest {
         int months = period.getMonths();
         System.out.println("此时间段中共有：" + months + "月");
 
-        // 获得时间段中共有多少年
+        // 获得时间段中共有多 少年
         int years = period.getYears();
         System.out.println("此时间段中共有：" + years + "年");
 

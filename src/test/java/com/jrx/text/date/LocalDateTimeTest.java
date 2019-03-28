@@ -45,7 +45,7 @@ public class LocalDateTimeTest {
 
         // 获得当前日期的秒数
         int second = now.getSecond();
-        System.out.println("当前日期的秒数为：" + second);
+        System.out.println("当 前日期的秒数为：" + second);
 
         LocalDateTime parseLocalDateTime = LocalDateTime.parse("2019-03-26T15:55:10.758");
         System.out.println("解析的时间为：" + parseLocalDateTime);

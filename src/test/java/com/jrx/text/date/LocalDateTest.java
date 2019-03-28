@@ -47,7 +47,7 @@ public class LocalDateTest {
         int month = now.get(ChronoField.MONTH_OF_YEAR);
         System.out.println("当前的月份是：" + month);
 
-        // 获得当前周是本年的第几周
+        // 获得当前 周是本年的第几周
         int week = now.get(ChronoField.ALIGNED_WEEK_OF_YEAR);
         System.out.println("当前周是本年的第：" + week + "周");
 

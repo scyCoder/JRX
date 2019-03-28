@@ -21,7 +21,7 @@ public class ZoneOffsetTest {
         ZoneOffset zoneOffset = ZoneOffset.of("+09:00");
         // 获取时区的偏移id
         String id = zoneOffset.getId();
-        System.out.println("获取时区的偏移id=" + id);
+        System.out.println("获取时区 的偏移id=" + id);
 
         // 获取时区规则
         ZoneRules rules = zoneOffset.getRules();

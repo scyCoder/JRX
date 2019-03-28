@@ -18,7 +18,7 @@ public class ZonedDateTimeTest {
 
         // 创建一个ZonedDateTime实例
         ZonedDateTime now = ZonedDateTime.now();
-        System.out.println("获得的当前的ZondDateTime时间为：" + now);
+        System.out.println("获 得的当前的ZondDateTime时间为：" + now);
 
         // 获得年
         int year = now.getYear();

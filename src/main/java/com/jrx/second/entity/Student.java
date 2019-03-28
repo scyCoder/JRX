@@ -13,7 +13,7 @@ public class Student implements Serializable {
 
 
     private static final long serialVersionUID = -1972951228361786779L;
-
+    
     // 分数
     private Double Score;
     // 年龄

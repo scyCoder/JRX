@@ -7,7 +7,7 @@ import java.time.ZoneId;
 import java.util.Set;
 
 /**
- * Clock时钟类用于获取当时的时间戳，或当前时区下的日期信息;
+ * Clock时钟类用于获取当时的时间戳，或 当前时区下的日期信息;
  * Clock是一个抽象类
  *
  * @Author: sunchuanyin

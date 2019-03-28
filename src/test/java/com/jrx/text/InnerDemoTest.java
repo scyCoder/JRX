@@ -53,7 +53,7 @@ public class InnerDemoTest {
     @Test
     public void getDataFromOutter() {
 
-        // 创建内部类对象
+        // 创建内 部类对象
         // InnerOne InnerOne = new InnerOne();
         InnerOne InnerOne = new InnerDemoTest().new InnerOne();
         InnerOne.assessDataFromOutter();

@@ -13,7 +13,7 @@ import org.junit.Test;
 public class AnonymousDemoTest {
 
     /**
-     * 测试
+     * 测试内部类
      */
     @Test
     public void work() {

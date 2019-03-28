@@ -27,7 +27,7 @@ public class PatternTest {
             System.out.println(str);
         }
 
-        // 验证指定的数据是否符合匹配规则
+        // 验证指定的数据是否符合指定的匹配规则
         boolean isMatch = Pattern.matches(regex, "hello");
         System.out.println("指定的数据是否匹配：" + isMatch);
     }

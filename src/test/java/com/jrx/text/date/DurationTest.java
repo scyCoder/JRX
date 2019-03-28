@@ -19,7 +19,7 @@ public class DurationTest {
     @Test
     public void durationTest() {
 
-        // 获得第一个Instant对象
+        // 获得一个Instant对象
         Instant instant1 = Instant.now().plusMillis(TimeUnit.HOURS.toMillis(8));
         // 获得第二个Instant对象
         Instant instant2 = Instant.ofEpochSecond(1553606847L);

@@ -33,7 +33,7 @@ public class LambdaTest {
         studentList.add(student6);
         Stream<Student> stream = studentList.stream();
         Stream<Student> studentStream = stream.filter(student -> student.getScore() < 60.0);
-        // 定义一个局部变量，用来接收学生的总分数
+        // 定义一个 局部变量，用来接收学生的总分数
         double totalScore = 0;
         // 将studentStream流转换成数组
         Object[] students = studentStream.toArray();
