@@ -16,5 +16,6 @@ public class TypeAnnotationDemo implements Serializable {
         // 用在类型转换上
         Object object = "hello";
         String string = (@TypeAnnotation.NotNull String) object;
+
     }
 }
